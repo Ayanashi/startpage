@@ -697,204 +697,45 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "excalidraw",
-              url: "https://excalidraw.com/",
-              icon: "pencil",
+              name: "removebg",
+              url: "https://remove.bg/",
+              icon: "scissors",
               icon_color: palette.peach,
             },
             {
-              name: "squoosh",
-              url: "https://squoosh.app/",
-              icon: "aspect-ratio",
+              name: "tinypng",
+              url: "https://tinypng.com/",
+              icon: "photo",
               icon_color: palette.red,
             },
             {
-              name: "palette-generator",
-              url: "https://colpat.itsvg.in/dashboard",
-              icon: "palette",
+              name: "vectorizer",
+              url: "https://vectorizer.ai/",
+              icon: "vector",
               icon_color: palette.blue,
-            },
-            {
-              name: "color-picker",
-              url: "https://htmlcolorcodes.com/color-picker/",
-              icon: "color-picker",
-              icon_color: palette.mauve,
             },
           ],
         },
       ],
     },
     {
-      name: "tools",
-      background_url: "src/img/banners/tokyo.png",
+      name: "ai",
+      background_url: "src/img/banners/mountain.png",
       categories: [
         {
-          name: "general",
-          links: [
-            {
-              name: "alternative-to",
-              url: "https://alternativeto.net/",
-              icon: "box-multiple",
-              icon_color: palette.green,
-            },
-            {
-              name: "deepl",
-              url: "https://www.deepl.com",
-              icon: "language",
-              icon_color: palette.peach,
-            },
-            {
-              name: "monkeytype",
-              url: "https://monkeytype.com/",
-              icon: "keyboard",
-              icon_color: palette.red,
-            },
-            {
-              name: "dub",
-              url: "https://dub.co/",
-              icon: "external-link",
-              icon_color: palette.blue,
-            },
-            {
-              name: "speed-test",
-              url: "https://librespeed.org/",
-              icon: "brand-speedtest",
-              icon_color: palette.mauve,
-            },
-            {
-              name: ".to",
-              url: "https://rentry.co/tosites",
-              icon: "arrow-loop-right",
-              icon_color: palette.sky,
-            },
-            {
-              name: "cloudconvert",
-              url: "https://cloudconvert.com/",
-              icon: "transform",
-              icon_color: palette.lavender,
-            },
-            {
-              name: "is-it-down",
-              url: "https://downforeveryoneorjustme.com/",
-              icon: "server-off",
-              icon_color: palette.flamingo,
-            },
-            {
-              name: "selfh.st",
-              url: "https://selfh.st/",
-              icon: "server-2",
-              icon_color: palette.pink,
-            },
-          ],
-        },
-        {
-          name: "piracy",
-          links: [
-            {
-              name: "fmhy",
-              url: "https://fmhy.net/",
-              icon: "barrier-block",
-              icon_color: palette.green,
-            },
-            {
-              name: "megathread",
-              url: "https://rentry.org/megathread",
-              icon: "skull",
-              icon_color: palette.peach,
-            },
-
-            {
-              name: "mobilism",
-              url: "https://forum.mobilism.me/",
-              icon: "device-mobile",
-              icon_color: palette.red,
-            },
-          ],
-        },
-        {
-          name: "privacy",
-          links: [
-            {
-              name: "adblock-test",
-              url: "https://d3ward.github.io/toolz/adblock.html",
-              icon: "lock-access",
-              icon_color: palette.green,
-            },
-            {
-              name: "privacy-guides",
-              url: "https://www.privacyguides.org/en/",
-              icon: "arrow-guide",
-              icon_color: palette.peach,
-            },
-            {
-              name: "r/privacy",
-              url: "https://www.reddit.com/r/privacy/",
-              icon: "door-off",
-              icon_color: palette.red,
-            },
-            {
-              name: "guerrilla-mail",
-              url: "https://www.guerrillamail.com",
-              icon: "trash",
-              icon_color: palette.blue,
-            },
-            {
-              name: "cleanurl",
-              url: "https://12ft.io/",
-              icon: "spray",
-              icon_color: palette.mauve,
-            },
-          ],
-        },
-        {
-          name: "security",
-          links: [
-            {
-              name: "cybersecurity-guide",
-              url: "https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide",
-              icon: "fingerprint",
-              icon_color: palette.green,
-            },
-            {
-              name: "virus-total",
-              url: "https://www.virustotal.com",
-              icon: "virus-search",
-              icon_color: palette.peach,
-            },
-            {
-              name: "hackthebox",
-              url: "https://www.hackthebox.com/",
-              icon: "biohazard",
-              icon_color: palette.red,
-            },
-            {
-              name: "triage",
-              url: "https://tria.ge/",
-              icon: "dna-2",
-              icon_color: palette.blue,
-            },
-            {
-              name: "cyberchef",
-              url: "https://gchq.github.io/CyberChef/",
-              icon: "chef-hat",
-              icon_color: palette.mauve,
-            },
-            {
-              name: "web-check",
-              url: "https://web-check.xyz/",
-              icon: "search",
-              icon_color: palette.sky,
-            },
-          ],
-        },
-        {
-          name: "ai",
+          name: "chatbots",
           links: [
             {
               name: "chatgpt",
               url: "https://chatgpt.com/",
               icon: "brand-openai",
               icon_color: palette.green,
+            },
+            {
+              name: "deepseek",
+              url: "https://chat.deepseek.com/",
+              icon: "brain",
+              icon_color: palette.blue,
             },
             {
               name: "huggingface",
@@ -914,9 +755,3 @@ const default_config = {
     },
   ],
 };
-
-const CONFIG = new Config(default_config, palette);
-
-const root = document.querySelector(":root");
-root.style.setProperty("--bg", palette.mantle);
-root.style.setProperty("--accent", palette.green);
