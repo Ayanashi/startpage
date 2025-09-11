@@ -134,7 +134,7 @@ const default_config = {
             },
             {
               name: "amazon",
-              url: "https://www.amazon.es/",
+              url: "https://www.amazon.it/",
               icon: "brand-amazon",
               icon_color: palette.peach,
             },
