@@ -331,6 +331,13 @@ const default_config = {
               icon: "file-spreadsheet",
               icon_color: palette.red,
             },
+            
+            {
+              name: "learnxiny",
+              url: "https://learnxinyminutes.com/",
+              icon : "",
+              icon_color: "",
+            },
           ],
         },
       ],
