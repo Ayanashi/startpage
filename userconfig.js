@@ -89,6 +89,9 @@ const default_config = {
             },
           ],
         },
+        {
+          name: "school",
+          links: [
             {
               name: "outlook",
               url: "https://outlook.office.com/mail/",
