@@ -89,11 +89,26 @@ const default_config = {
             },
           ],
         },
+        {
+          name: "school",
+          links: [
+            {
+              name: "aules",
+              url: "https://aules.edu.gva.es/semipresencial/my/index.php?lang=es",
+              icon: "school",
+              icon_color: palette.green,
+            },
             {
               name: "outlook",
               url: "https://outlook.office.com/mail/",
               icon: "inbox",
               icon_color: palette.peach,
+            },
+            {
+              name: "aws",
+              url: "https://awsacademy.instructure.com/",
+              icon: "brand-aws",
+              icon_color: palette.red,
             },
           ],
         },
@@ -111,6 +126,12 @@ const default_config = {
         {
           name: "shopping",
           links: [
+            {
+              name: "pccomponentes",
+              url: "https://www.pccomponentes.com/",
+              icon: "device-desktop",
+              icon_color: palette.green,
+            },
             {
               name: "amazon",
               url: "https://www.amazon.it/",
