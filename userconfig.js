@@ -334,8 +334,7 @@ const default_config = {
             {
               name: "learnxiny",
               url: "https://learnxinyminutes.com/",
-              icon: "book",
-              icon_color: palette.blue,
+              icon: "",
               },
             },
           ],
