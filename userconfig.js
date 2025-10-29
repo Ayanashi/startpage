@@ -1,4 +1,4 @@
-/// latte / frappe / macchiato / mocha
+// latte / frappe / macchiato / mocha
 const palette = macchiato;
 
 const default_config = {
@@ -334,9 +334,8 @@ const default_config = {
             {
               name: "learnxiny",
               url: "https://learnxinyminutes.com/",
-              icon: " ",
-              icon_color:" ",
-              },
+              icon : "",
+              icon_color: "",
             },
           ],
         },
