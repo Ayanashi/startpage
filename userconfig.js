@@ -366,6 +366,18 @@ const default_config = {
               icon: "brand-appgallery",
               icon_color: palette.red,
             },
+            {
+      name: "itch.io",
+      url: "https://itch.io/",
+      icon: "brand-itch",
+      icon_color: palette.mauve, {
+      },
+      {        
+      name: "itch.io",
+      url: "https://itch.io/",
+      icon: "brand-itch",
+      icon_color: palette.mauve, 
+    },
           ],
         },
         {
