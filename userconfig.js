@@ -58,6 +58,18 @@ const default_config = {
               icon: "users",
               icon_color: palette.sky,
             },
+            {
+              name: "twitter",
+              url: "https://twitter.com/",
+              icon: "brand-twitter",
+              icon_color: palette.sky,
+            },
+            {
+              name: "instagram",
+              url: "https://instagram.com/",
+              icon: "brand-instagram",
+              icon_color: palette.pink,
+            },
           ],
         },
         {
@@ -87,7 +99,36 @@ const default_config = {
               icon: "cloud",
               icon_color: palette.blue,
             },
+            {
+              name: "discord",
+              url: "https://discord.com/app",
+              icon: "brand-discord",
+              icon_color: palette.lavender,
+            },
           ],
+        },
+        {
+          name: "productivity",
+          links: [
+            {
+              name: "notion",
+              url: "https://notion.so/",
+              icon: "notes",
+              icon_color: palette.text,
+            },
+            {
+              name: "trello",
+              url: "https://trello.com/",
+              icon: "layout-kanban",
+              icon_color: palette.blue,
+            },
+            {
+              name: "todoist",
+              url: "https://todoist.com/",
+              icon: "list-check",
+              icon_color: palette.red,
+            }
+          ]
         },
         {
           name: "school",
@@ -308,6 +349,18 @@ const default_config = {
               icon: "tools",
               icon_color: palette.pink,
             },
+            {
+              name: "figma",
+              url: "https://figma.com/",
+              icon: "brand-figma",
+              icon_color: palette.pink,
+            },
+            {
+              name: "gitlab",
+              url: "https://gitlab.com/",
+              icon: "brand-gitlab",
+              icon_color: palette.orange,
+            },
           ],
         },
         {
@@ -336,6 +389,12 @@ const default_config = {
               url: "https://learnxinyminutes.com/",
               icon : "",
               icon_color: "",
+            },
+            {
+              name: "stackexchange",
+              url: "https://stackexchange.com/",
+              icon: "message-question",
+              icon_color: palette.blue,
             },
           ],
         },
@@ -367,11 +426,17 @@ const default_config = {
               icon_color: palette.red,
             },
             {
-            name: "itch.io",
-            url: "https://itch.io/",
-            icon: "brand-itch",
-            icon_color: palette.mauve, 
-          },
+              name: "itch.io",
+              url: "https://itch.io/",
+              icon: "brand-itch",
+              icon_color: palette.mauve, 
+            },
+            {
+              name: "humble bundle",
+              url: "https://humblebundle.com/",
+              icon: "shopping-cart",
+              icon_color: palette.pink,
+            },
           ],
         },
         {
@@ -534,6 +599,12 @@ const default_config = {
               icon: "abc",
               icon_color: palette.mauve,
             },
+            {
+              name: "bandcamp",
+              url: "https://bandcamp.com/",
+              icon: "album",
+              icon_color: palette.blue,
+            },
           ],
         },
         {
@@ -668,6 +739,18 @@ const default_config = {
               icon: "pencil-heart",
               icon_color: palette.blue,
             },
+            {
+              name: "behance",
+              url: "https://behance.net/",
+              icon: "palette",
+              icon_color: palette.blue,
+            },
+            {
+              name: "dribbble",
+              url: "https://dribbble.com/",
+              icon: "brush",
+              icon_color: palette.pink,
+            },
           ],
         },
         {
@@ -797,6 +880,24 @@ const default_config = {
               icon: "server-2",
               icon_color: palette.pink,
             },
+            {
+              name: "wetransfer",
+              url: "https://wetransfer.com/",
+              icon: "file-upload",
+              icon_color: palette.blue,
+            },
+            {
+              name: "remove-bg",
+              url: "https://remove.bg/",
+              icon: "cut",
+              icon_color: palette.green,
+            },
+            {
+              name: "0x0.st",
+              url: "https://0x0.st/",
+              icon: "upload",
+              icon_color: palette.teal,
+            },
           ],
         },
         {
@@ -925,6 +1026,24 @@ const default_config = {
               url: "http://127.0.0.1:8080/",
               icon: "message-chatbot",
               icon_color: palette.red,
+            },
+            {
+              name: "claude",
+              url: "https://claude.ai/",
+              icon: "message-chatbot",
+              icon_color: palette.peach,
+            },
+            {
+              name: "perplexity",
+              url: "https://perplexity.ai/",
+              icon: "search",
+              icon_color: palette.blue,
+            },
+            {
+              name: "polybuzz",
+              url: "https://www.polybuzz.ai/",
+              icon: "message-chatbot",
+              icon_color: palette.mauve,
             },
           ],
         },
