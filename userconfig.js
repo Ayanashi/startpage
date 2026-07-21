@@ -1033,7 +1033,7 @@ const default_config = {
       name: "portswigger",
       url: "https://portswigger.net/",
       icon: "spider",
-      icon_color: palette.orange,
+      icon_color: palette.peach,
     },
     {
       name: "owasp",
@@ -1093,13 +1093,13 @@ const default_config = {
       name: "vulners",
       url: "https://vulners.com/",
       icon: "database-alert",
-      icon_color: palette.red,
+      icon_color: palette.pink,
     },
     {
       name: "securitytrails",
       url: "https://securitytrails.com/",
       icon: "map-search",
-      icon_color: palette.orange,
+      icon_color: palette.sky,
     },
     {
       name: "greynoise",
@@ -1153,7 +1153,7 @@ const default_config = {
       name: "crackstation",
       url: "https://crackstation.net/",
       icon: "hammer",
-      icon_color: palette.orange,
+      icon_color: palette.yellow,
     },
     {
       name: "hashcat",
@@ -1189,7 +1189,7 @@ const default_config = {
       name: "burp-suite",
       url: "https://portswigger.net/burp",
       icon: "test-pipe",
-      icon_color: palette.orange,
+      icon_color: palette.peach,
     },
     {
       name: "kali-tools",
