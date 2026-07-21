@@ -232,6 +232,12 @@ const default_config = {
               icon: "brand-vercel",
               icon_color: palette.blue,
             },
+            {
+             name: "cockpit",
+             url: "https://127.0.0.1:9090/",
+             icon: "brand-redhat",
+             icon_color: palette.red,
+            },
           ],
         },
       ],
