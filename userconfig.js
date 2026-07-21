@@ -102,7 +102,7 @@ const default_config = {
             {
              name: "meet",
              url: "https://meet.google.com/",
-             icon: "brand-google-meet",
+             icon: "brand-meet",
              icon_color: palette.red,
             },
             {
