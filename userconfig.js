@@ -1092,7 +1092,7 @@ const default_config = {
     {
       name: "vulners",
       url: "https://vulners.com/",
-      icon: "database-alert",
+      icon: "bug",
       icon_color: palette.pink,
     },
     {
