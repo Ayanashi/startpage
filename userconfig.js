@@ -100,6 +100,12 @@ const default_config = {
               icon_color: palette.blue,
             },
             {
+             name: "meet",
+             url: "https://meet.google.com/",
+             icon: "brand-google-meet",
+             icon_color: palette.green,
+            },
+            {
               name: "discord",
               url: "https://discord.com/app",
               icon: "brand-discord",
