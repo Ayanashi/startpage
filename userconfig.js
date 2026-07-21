@@ -103,7 +103,7 @@ const default_config = {
              name: "meet",
              url: "https://meet.google.com/",
              icon: "brand-google-meet",
-             icon_color: palette.green,
+             icon_color: palette.red,
             },
             {
               name: "discord",
