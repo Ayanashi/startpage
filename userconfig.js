@@ -102,7 +102,7 @@ const default_config = {
             {
              name: "meet",
              url: "https://meet.google.com/",
-             icon: "brand-meet",
+             icon: "video",
              icon_color: palette.red,
             },
             {
@@ -235,7 +235,7 @@ const default_config = {
             {
              name: "cockpit",
              url: "https://127.0.0.1:9090/",
-             icon: "brand-redhat",
+             icon: "gauge",
              icon_color: palette.red,
             },
             {
@@ -405,8 +405,8 @@ const default_config = {
             {
               name: "learnxiny",
               url: "https://learnxinyminutes.com/",
-              icon : "",
-              icon_color: "",
+              icon: "code",
+              icon_color: palette.green,
             },
             {
               name: "stackexchange",
@@ -783,7 +783,7 @@ const default_config = {
             {
               name: "nord",
               url: "https://www.nordtheme.com/",
-              icon: "brand-nord-vpn",
+              icon: "snowflake",
               icon_color: palette.peach,
             },
             {
@@ -1116,7 +1116,7 @@ const default_config = {
     {
       name: "haveibeenpwned",
       url: "https://haveibeenpwned.com/",
-      icon: "leak",
+      icon: "alert-triangle",
       icon_color: palette.red,
     },
     {
@@ -1128,7 +1128,7 @@ const default_config = {
     {
       name: "theharvester",
       url: "https://github.com/laramies/theHarvester",
-      icon: "harvest",
+      icon: "plant",
       icon_color: palette.peach,
     },
     {
@@ -1170,7 +1170,7 @@ const default_config = {
     {
       name: "metasploit",
       url: "https://www.metasploit.com/",
-      icon: "tool",
+      icon: "tools",
       icon_color: palette.red,
     },
     {
@@ -1182,7 +1182,7 @@ const default_config = {
     {
       name: "wireshark",
       url: "https://www.wireshark.org/",
-      icon: "capture",
+      icon: "camera",
       icon_color: palette.blue,
     },
     {
