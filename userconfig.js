@@ -1232,6 +1232,12 @@ const default_config = {
               icon: "message-chatbot",
               icon_color: palette.mauve,
             },
+            {
+             name: "janitor-ai",
+             url: "https://janitorai.com/",
+             icon: "message-heart",
+             icon_color: palette.pink,
+            },
           ],
         },
       ],
