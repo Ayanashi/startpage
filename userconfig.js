@@ -377,7 +377,7 @@ const default_config = {
               name: "gitlab",
               url: "https://gitlab.com/",
               icon: "brand-gitlab",
-              icon_color: palette.orange,
+              icon_color: palette.peach,
             },
           ],
         },
