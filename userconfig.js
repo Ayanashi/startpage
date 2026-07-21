@@ -1209,6 +1209,12 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
+              name: "gemini",
+              url: "https://gemini.google.com/",
+              icon: "brand-google",
+              icon_color: palette.blue,
+            },
+            {
               name: "open-webui",
               url: "http://127.0.0.1:8080/",
               icon: "message-chatbot",
