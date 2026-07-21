@@ -238,6 +238,12 @@ const default_config = {
              icon: "brand-redhat",
              icon_color: palette.red,
             },
+            {
+            name: "proxmox",
+            url: "https://127.0.0.1:8006/",
+            icon: "server",
+            icon_color: palette.orange,
+           },
           ],
         },
       ],
