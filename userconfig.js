@@ -242,7 +242,7 @@ const default_config = {
             name: "proxmox",
             url: "https://127.0.0.1:8006/",
             icon: "server",
-            icon_color: palette.orange,
+            icon_color: palette.lavender,
            },
           ],
         },
